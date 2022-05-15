@@ -48,7 +48,7 @@ int main()
     cout<<"Ingrese el numero a convertir:";
     cin>>Num;
 
-    unidades = Num %10;
+    unidades = Num % 10;
     decenas = (Num / 10) % 10;
     veintes = Num % 10;
 
