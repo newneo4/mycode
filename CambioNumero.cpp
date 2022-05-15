@@ -52,20 +52,20 @@ int main()
     decenas = (Num / 10) % 10;
     veintes = Num % 10;
 
-    if(20 < Num && Num < 30){
+    if(20 < Num && Num < 30){//devuelve en letras los numeros del 21 al 29 ..... 21 = VEINTIUNO
         cout<<"\nResultados = "<<veintesG[veintes-1];
     }
 
-    else if(0 <= Num && Num < 10){
+    else if(0 <= Num && Num < 10){//devuelve numeros del 1 al 9.... 1 = UNO  
         cout<<"\nResultado = "<<unidadesG[unidades];
     }
 
     else{
         if(decenas == 0){
-            cout<<"\nResultado = "<<decenasG[9];
+            cout<<"\nResultado = "<<decenasG[9];//devuelve especificamente el numero 100 
         }
         else{
-            cout<<"\nResultado = "<<decenasG[decenas-1]<<" Y "<<unidadesG[unidades];
+            cout<<"\nResultado = "<<decenasG[decenas-1]<<" Y "<<unidadesG[unidades];//devuelve los numeros faltantes.... 31 = TREINTA Y UNO 
         }
     }
 
