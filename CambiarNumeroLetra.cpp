@@ -43,6 +43,18 @@ int main()
         "VEINTIOCHO",
         "VEINTINUEVE"
     };
+    
+      char diezG[10][20]{
+        "ONCE",
+        "DOCE",
+        "TRECE",
+        "CATORCE",
+        "QUINCE",
+        "DIECISEIS",
+        "DIECISIETE",
+        "DIECIOCHO",
+        "DIECINUEVE"
+    };
 
     do{
        cout<<"Ingrese el numero a convertir: ";
@@ -55,6 +67,10 @@ int main()
 
             if(20 < num && num < 30){
                 cout<<"Resultados = "<<veintesG[veintes-1]<<"\n"<<endl;//NUMEROS DEL 21 AL 29 ... 21 = VEINTIUNO
+            }
+            
+            else if(10 < num && num < 20){
+                cout<<"Resultados = "<<diezG[veintes-1]<<"\n"<<endl;//NUMEROS DEL 11 AL 19 ... 11 = ONCE
             }
 
             else if(num < 10){
