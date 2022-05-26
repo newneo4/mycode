@@ -239,7 +239,7 @@ int main(){
             }
             cout<<"\n";
 
-            cout<<"¿Volver a mover?"<<endl;
+            cout<<"Â¿Volver a mover?"<<endl;
             cin>>otro;
         }while(otro == "s");
     }
